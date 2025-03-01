@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
+import { CatModule } from './cat/cat.module';
 
 @Module({
-  imports: [],
-  controllers: [],
-  providers: [],
+  imports: [CatModule]
 })
 export class AppModule {}
